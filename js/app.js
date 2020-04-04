@@ -179,15 +179,8 @@ var Calculadora = {
       this.tipoOperacion = ope;
       this.display.innerHTML = "";
 
-    },
-
-    idtipo:function() {
-      var tipo;
-      tipo = this.display.innerHTML ;
-
-        alert(typeof tipo);
-
-
     }
+
+
   }
   Calculadora.eventos();
